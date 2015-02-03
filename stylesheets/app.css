@@ -9084,7 +9084,23 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* line 67, ../scss/_ender.scss */
+/* line 64, ../scss/_ender.scss */
+.f-topbar-fixed {
+  padding-top: 0 !important;
+}
+
+/* line 69, ../scss/_ender.scss */
+.f-topbar-fixed h1 {
+  padding-top: 272px;
+}
+
+/* line 76, ../scss/_ender.scss */
+.fixed {
+  background: #252525;
+  padding: 0 140px;
+}
+
+/* line 81, ../scss/_ender.scss */
 header {
   background: url("../img/bg-header.jpg");
   text-align: center;
@@ -9094,56 +9110,87 @@ header {
   padding-top: 0;
   margin-top: 0;
 }
-/* line 76, ../scss/_ender.scss */
-header h1 {
-  font-size: 6.66667rem;
+/* line 91, ../scss/_ender.scss */
+header .top-bar {
+  padding-top: 24px;
+  background: none;
+  height: 80px;
+}
+/* line 96, ../scss/_ender.scss */
+header .top-bar.expanded .title-area {
+  background: none;
+}
+/* line 100, ../scss/_ender.scss */
+header .top-bar .menu {
+  line-height: 36px;
+}
+/* line 105, ../scss/_ender.scss */
+header .logo {
+  font-size: 2.66667rem;
   /* $font % 16 */
-  line-height: 0.8em;
+  line-height: 1em;
+  /* (24*$lines) % $font */
+  font-weight: normal;
+  font-family: "bebas";
+  text-align: left;
+  color: white;
+  padding-left: 24px;
+}
+@media (min-width: 1000px) {
+  /* line 105, ../scss/_ender.scss */
+  header .logo {
+    padding-left: 0;
+  }
+}
+/* line 118, ../scss/_ender.scss */
+header nav a {
+  font-weight: 100;
+  color: white;
+  margin: 0 12px;
+}
+/* line 123, ../scss/_ender.scss */
+header nav a:hover, header nav a:active, header nav a:focus {
+  color: white;
+  text-decoration: underline;
+}
+/* line 130, ../scss/_ender.scss */
+header h1 {
+  font-size: 5.33333rem;
+  /* $font % 16 */
+  line-height: 1em;
   /* (24*$lines) % $font */
   font-weight: bold;
   font-family: "bebas";
-  padding-top: 120px;
+  padding-top: 192px;
   color: white;
 }
-/* line 82, ../scss/_ender.scss */
+/* line 136, ../scss/_ender.scss */
 header h2 {
-  font-size: 1.61111rem;
-  /* $font % 16 */
-  line-height: 0.82759em;
-  /* (24*$lines) % $font */
-  font-weight: normal;
-  font-family: "Georgia";
-  color: rgba(255, 255, 255, 0.5);
-  font-style: italic;
-}
-/* line 88, ../scss/_ender.scss */
-header h3 {
   font-size: 1.66667rem;
   /* $font % 16 */
   line-height: 1.6em;
   /* (24*$lines) % $font */
   font-weight: lighter;
   font-family: "Roboto";
-  padding-top: 96px;
   color: #dbd165;
 }
-/* line 94, ../scss/_ender.scss */
+/* line 141, ../scss/_ender.scss */
 header .header-buttons {
   padding-top: 72px;
 }
-/* line 97, ../scss/_ender.scss */
+/* line 144, ../scss/_ender.scss */
 header .header-buttons a {
   margin-right: 24px;
 }
 
-/* line 105, ../scss/_ender.scss */
-#reasons {
+/* line 152, ../scss/_ender.scss */
+#services, #contact {
   background: white;
   height: 100%;
   color: #616a72;
 }
-/* line 110, ../scss/_ender.scss */
-#reasons h2 {
+/* line 157, ../scss/_ender.scss */
+#services h3, #contact h3 {
   font-size: 2.66667rem;
   /* $font % 16 */
   line-height: 1em;
@@ -9153,12 +9200,19 @@ header .header-buttons a {
   padding-top: 120px;
   padding-bottom: 48px;
 }
-/* line 116, ../scss/_ender.scss */
-#reasons h3 {
+/* line 163, ../scss/_ender.scss */
+#services h4, #contact h4 {
   font-size: 1rem;
   /* $font % 16 */
   line-height: 2.66667em;
   /* (24*$lines) % $font */
   font-weight: bold;
   font-family: "Roboto";
+}
+
+/* line 169, ../scss/_ender.scss */
+#contact {
+  background: #f7f9fa;
+  height: 100%;
+  border-top: 1px solid #e9ecf0;
 }

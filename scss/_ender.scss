@@ -61,8 +61,22 @@ h1 {
 
 }
 
+.f-topbar-fixed {
+	padding-top: 0 !important;
+}
+
+.f-topbar-fixed {
+	h1 {
+		padding-top: 272px; 
+	}
+}
 
 // Header
+
+.fixed {
+	background: rgba(37,37,37,1);
+	padding: 0 140px;
+}
 
 header {
 	background: url('../img/bg-header.jpg');
@@ -73,21 +87,54 @@ header {
 	padding-top: 0;
 	margin-top: 0;	
 
+
+	.top-bar {
+		padding-top: $lineHeight;
+		background: none;
+		height: 80px;
+
+		&.expanded .title-area {
+			background: none;
+		}
+
+		.menu {
+			line-height: 36px;
+		}
+	}
+
+	.logo {
+		@include fontSize(48, 2, normal, 'bebas');
+		text-align: left;
+		color: white;
+		padding-left: $lineHeight;
+
+		@media (min-width: 1000px) {
+			padding-left: 0;
+		}
+	}
+
+	nav {
+		
+		a {
+			font-weight: 100;
+			color: white;
+			margin: 0 12px;
+
+			&:hover, &:active, &:focus {
+				color: white;
+				text-decoration: underline;
+			}
+		}
+	}
+
 	h1 {
-		@include fontSize(120, 4, bold, 'bebas');
-		padding-top: $lineHeight*5;
+		@include fontSize(96, 4, bold, 'bebas');
+		padding-top: $lineHeight*8;
 		color: white;		
 	}
 
 	h2 {
-		@include fontSize(29, 1, normal, 'Georgia');
-		color: rgba(255,255,255,.5);
-		font-style: italic;
-	}
-
-	h3 {
 		@include fontSize(30, 2, lighter, 'Roboto');
-		padding-top: $lineHeight*4;
 		color: #dbd165;
 	}
 
@@ -102,18 +149,27 @@ header {
 
 // Content
 
-#reasons {
+#services {
 	background: white;
 	height: 100%;
 	color: rgba(97,106,114,1);
 
-	h2 {
+	h3 {
 		@include fontSize(48, 2, lighter, 'Roboto');		
 		padding-top: $lineHeight*5;
 		padding-bottom: $lineHeight*2;
 	}
 
-	h3 {
+	h4 {
 		@include fontSize(18, 2, bold, 'Roboto');		
 	}
+}
+
+
+#contact {
+	@extend #services;
+	background: #f7f9fa;
+	height: 100%;
+	border-top: 1px solid #e9ecf0;
+
 }
