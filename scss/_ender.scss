@@ -237,7 +237,7 @@ header {
 
 #contact {
 	background: #f7f9fa;
-	height: 100%;
+	min-height: 100%;
 	border-top: 1px solid #e9ecf0;
 	padding: 52px 0;
 
@@ -252,10 +252,14 @@ header {
 		line-height: 25px;
 		height: 78px;
 		margin-bottom: 26px;
-	}
 
-	.button {
-		margin-top: 104px;
+		&.textarea {
+			height: 156px;	
+		}
+
+		&.attached {
+			margin-bottom: 0;
+		}
 	}
 
 	select {

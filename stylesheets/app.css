@@ -9271,7 +9271,7 @@ header a:visited {
 /* line 238, ../scss/_ender.scss */
 #contact {
   background: #f7f9fa;
-  height: 100%;
+  min-height: 100%;
   border-top: 1px solid #e9ecf0;
   padding: 52px 0;
 }
@@ -9288,19 +9288,23 @@ header a:visited {
   height: 78px;
   margin-bottom: 26px;
 }
-/* line 257, ../scss/_ender.scss */
-#contact .button {
-  margin-top: 104px;
+/* line 256, ../scss/_ender.scss */
+#contact label.textarea {
+  height: 156px;
 }
-/* line 261, ../scss/_ender.scss */
+/* line 260, ../scss/_ender.scss */
+#contact label.attached {
+  margin-bottom: 0;
+}
+/* line 265, ../scss/_ender.scss */
 #contact select {
   margin-bottom: 26px;
 }
-/* line 265, ../scss/_ender.scss */
+/* line 269, ../scss/_ender.scss */
 #contact input:first-child {
   padding-top: 0;
 }
-/* line 269, ../scss/_ender.scss */
+/* line 273, ../scss/_ender.scss */
 #contact input[type="text"], #contact input[type="password"], #contact input[type="date"],
 #contact input[type="datetime"], #contact input[type="datetime-local"],
 #contact input[type="month"], #contact input[type="week"], #contact input[type="email"],
@@ -9309,7 +9313,7 @@ header a:visited {
   height: 52px;
   padding-top: 9px;
 }
-/* line 278, ../scss/_ender.scss */
+/* line 282, ../scss/_ender.scss */
 #contact input[type="text"]:focus, #contact input[type="password"]:focus,
 #contact input[type="date"]:focus, #contact input[type="datetime"]:focus,
 #contact input[type="datetime-local"]:focus, #contact input[type="month"]:focus,
