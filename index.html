@@ -134,21 +134,19 @@
                     <!-- all your input fields here.... -->
                     <div class="row">
                         <div class="small-11 columns">
-                            <label>
-                                <select>
-                                    <option value="husker">Solo por curiosidad...</option>
-                                    <option value="starbuck">Hola, soy un emprendedor</option>
-                                    <option value="hotdog">Hola, soy una empresa</option>
-                                    <option value="apollo">Solo sé que no sé nada</option>
-                                </select>
-                            </label>
+                            <select>
+                                <option value="husker">Solo por curiosidad...</option>
+                                <option value="starbuck">Hola, soy un emprendedor</option>
+                                <option value="hotdog">Hola, soy una empresa</option>
+                                <option value="apollo">Solo sé que no sé nada</option>
+                            </select>
                         </div>
                     </div>
 
                     <div class="row collapse">                        
                         <div class="small-11 columns">
                             <label>Nombre
-                                <input type="text" placeholder="Tu nombre, y apellidos si quieres" required>
+                                <input type="text" name="nombre" placeholder="Tu nombre, y apellidos si quieres" required>
                             </label>
                         </div>
                     </div>
@@ -156,7 +154,7 @@
                     <div class="row collapse">                        
                         <div class="small-11 columns">
                             <label>Email
-                            <input type="text" placeholder="Te contestaremos a esta dirección" required>
+                            <input type="text" name="email" placeholder="Te contestaremos a esta dirección" required>
                             </label>
                         </div>
                     </div>                   
@@ -164,7 +162,7 @@
                     <div class="row">
                         <div class="small-11 columns">
                             <label>Mensaje
-                                <textarea placeholder="Escribe algo bonito" rows="6" required></textarea>
+                                <textarea name="mensaje" placeholder="Escribe algo bonito" rows="6" required></textarea>
                             </label>
                         </div>
                     </div>

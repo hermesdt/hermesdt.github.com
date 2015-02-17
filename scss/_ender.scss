@@ -163,6 +163,7 @@ header {
 
 #product-mvp {
 	background: white;
+	min-height: 534px;
 
 	.tabs {
 		text-align: center;
@@ -251,14 +252,14 @@ header {
 		line-height: 25px;
 		height: 78px;
 		margin-bottom: 26px;
-
-		&:first-child {
-			height: 52px;
-		}
 	}
 
 	.button {
 		margin-top: 104px;
+	}
+
+	select {
+		margin-bottom: 26px;
 	}
 
 	input:first-child {
