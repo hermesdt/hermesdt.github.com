@@ -9,78 +9,116 @@
         <script src="js/modernizr.js"></script>
     </head>    
 <body>
-   
-    <header>
-        <div class="row">        
-            <div class="sticky">                
-                <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
-                    <ul class="title-area">
-                        <li class="logo">
-                            CODEENDER
-                        </li>
-                        
-                        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-                    </ul>
+    
+    <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#">CODEENDER</a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+            </ul>
 
-                    <section class="top-bar-section">
-                        <div class="right menu">
-                             <a href="#services">Qué hacemos</a>
-                            <a href="#works">Trabajos</a>
-                            <a href="#about">Nuestra historia</a>
-                            <a href="#contact">Contacta</a>     
-                        </div>
-                    </section>
-                </nav>
-            </div>
+            <section class="top-bar-section">
+                <ul class="right">
+                    <li><a href="#product-mvp">Producto MVP</a></li>
+                    <!-- <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#projects">Proyectos</a></li> -->
+                    <li><a href="#contact">Contacta</a></li>
+                </ul>    
+            </section>
+        </nav>
+    </div>
 
-            <hgroup>
-                <h1>convertimos tu idea en realidad</h1>
-                <h2>Desarrollamos tu producto mínimo viable (MVP) en 30 días.</h2>
-            </hgroup>
+    <header id="awesome">
+        <div class="intro">
+            <h2>Convertimos tu idea en realidad</h2>
+            <p>Desarrollamos tu producto mínimo viable (MVP) en 30 días.</p>
+            <a href="#product-mvp" class="button">Saber más</a>
         </div>
     </header>
-    
 
-    <div id="services">
+    <section id="product-mvp" name="product-mvp">
     
         <div class="row">
             <div class="small-12 columns">
-                <h3>Te ayudamos a desarrollar tu MVP</h3>
+                <h2>Las 3 razones por las que desarrollar un Producto Mínimo Viable (MVP)</h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="small-12 medium-4 column">
-                <h4>AHORRA COSTES</h4>
-                <p>Un primer producto con solo las funcionalidades básicas es más fácil de desarrollar.</p>
-            </div>
-
-            <div class="small-12 medium-4 column">
-                <h4>ES MÁS RÁPIDO</h4>
-                <p>Utilizamos las metodologías Lean y SCRUM cuando trabajamos en un producto.</p>
-            </div>
-
-            <div class="small-12 medium-4 column end">
-                <h4>VALIDA TU IDEA</h4>
-                <p>Testea la validez de tu idea, escucha a tus clientes, nosotros nos encargamos de Analytics.</p>
+            <div class="small-12 columns">
+                <ul class="tabs" data-tab>
+                    <li class="tab-title active"><a href="#panel1">Ahorra</a></li>
+                    <li class="tab-title"><a href="#panel2">Valida</a></li>
+                    <li class="tab-title"><a href="#panel3">Escala</a></li>
+                </ul>
             </div>
         </div>
 
-        <div class="row">
-            <div class="small-12 medium-4 column">
-                <h4>ES SENCILLO PIVOTAR</h4>
-                <p>Con un MVP es relativamente sencillo dar un paso atrás y buscar una nueva dirección.</p>
+        <div class="tabs-content">
+            <div class="content active" id="panel1">
+                <div class="row">
+                    <div class="small-12 medium-6 column">
+                        <h3>Ahorra costes en menos tiempo</h3>
+                        
+                        <h4>Es más sencillo</h4>
+                        <p>Un producto con las funcionalidades mínimas es más sencillo de desarrollar.</p> 
+                        
+                        <h4>Nuestro ADN</h4>
+                        <p>Trabajamos con metodologías ágiles cuando abordamos un nuevo proyecto.</p>
+                    </div>
+                    <div class="small-12 medium-6 column text-center">
+                        <img src="https://cf.dropboxstatic.com/static/images/business/uses/summary/cloud-security-vflitqQvY_A.png">
+                    </div>
+                </div>
             </div>
-
-            <div class="small-12 medium-4 column end">
-                <h4>ESCALA TU PROYECTO</h4>
-                <p>Tras testear y validar tu idea tu producto tiene una nueva meta para seguir creciendo.</p>
-            </div>            
+            
+            <div class="content" id="panel2">
+                <div class="row">
+                    <div class="small-12 medium-6 column text-center">
+                        <img src="https://cf.dropboxstatic.com/static/images/business/uses/summary/collaboration-vflqNhVEA_A.png">
+                    </div>
+                    <div class="small-12 medium-6 column">
+                        <h3>Valida tu idea y pivota</h3>
+                        <h4>A/B Testing</h4>
+                        <p>Testea tu producto y escucha a tus clientes, nosotros nos encargamos de Google Analytics. 
+                        <h4>Avanza o pivota</h4>
+                        <p>Con un MVP es relativamente sencillo dar un paso atrás y buscar una nueva dirección.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content" id="panel3">
+                <div class="row">
+                    <div class="small-12 medium-6 column">
+                        <h3>Escala tu producto</h3>
+                        <h4>Planificación</h4>
+                        <p>Desde la primera fase de definición se busca un crecimiento exponencial de usuarios.</p>
+                        
+                        <h4>Objetivos</h4>
+                        <p>Lo más importante es que una vez testado el producto pueda seguir creciendo.</p>
+                    </div>
+                    <div class="small-12 medium-6 column text-center">
+                        <img src="https://cf.dropboxstatic.com/static/images/business/uses/summary/cloud-security-vflitqQvY_A.png">
+                    </div>
+                </div>
+            </div>
         </div>
+        
+    </section>
 
-    </div>
+   <!--  <section id="about">
+        
 
-    <div id="contact">
+    </section>
+
+    <section id="projects">
+        
+
+    </section> -->
+
+    <section id="contact">
     
         <div class="row">
             <div class="small-12 columns">
@@ -89,20 +127,72 @@
         </div>
 
         <div class="row">
+            <div class="small-12 medium-8 column">
+                <form action="https://getsimpleform.com/messages?form_api_token=c4b77b969b7d80d58385c1b827097078" method="post">
+                    <!-- the redirect_to is optional, the form will redirect to the referrer on submission 
+                    <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
+                    <!-- all your input fields here.... -->
+                    <div class="row">
+                        <div class="small-11 columns">
+                            <label>
+                                <select>
+                                    <option value="husker">Solo por curiosidad...</option>
+                                    <option value="starbuck">Hola, soy un emprendedor</option>
+                                    <option value="hotdog">Hola, soy una empresa</option>
+                                    <option value="apollo">Solo sé que no sé nada</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row collapse">                        
+                        <div class="small-11 columns">
+                            <label>Nombre
+                                <input type="text" placeholder="Tu nombre, y apellidos si quieres" required>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row collapse">                        
+                        <div class="small-11 columns">
+                            <label>Email
+                            <input type="text" placeholder="Te contestaremos a esta dirección" required>
+                            </label>
+                        </div>
+                    </div>                   
+
+                    <div class="row">
+                        <div class="small-11 columns">
+                            <label>Mensaje
+                                <textarea placeholder="Escribe algo bonito" rows="6" required></textarea>
+                            </label>
+                        </div>
+                    </div>
+
+                    <input type='submit' class="button" value='Enviar mensaje' />
+                </form>
+            </div>
+
             <div class="small-12 medium-4 column">
-                
+                <p>Contacta con nosotros para contarnos tu idea, resolver alguna duda o solicitar un presupuesto.</p>
+                <p>También puedes escribirnos para decir ¡hola!</p>
+                <p>Te enviaremos un e-mail lo antes posible. Contestamos en menos de 48 horas.</p>
+                <p>¡Gracias!</p>
             </div>
         </div>
 
-    </div>
+    </section>
 
-    <!-- Scripts -->
-    <script src="js/jquery.js"></script>
-    <script src="js/fastclick.js"></script>    
-    <script src="js/foundation.min.js"></script>
-    <script src="js/jquery.cookie.js"></script>
-    <script src="js/placeholder.js"></script>
-    <script src="js/app.js"></script>
-    <!-- /. Scripts -->
+
+<!-- Scripts -->
+<script src="js/jquery.js"></script>
+<script src="js/fastclick.js"></script>    
+<script src="js/foundation.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/placeholder.js"></script>
+<script src="js/app.js"></script>
+<script src="js/parallax.js"></script>
+<!-- /. Scripts -->
+   
 </body>
 </html>
