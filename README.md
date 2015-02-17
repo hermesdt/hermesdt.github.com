@@ -1,29 +1,38 @@
-# Foundation Compass Template
+# CODEENDER
 
-The easiest way to get started with Foundation + Compass.
+## Convertimos tu idea en realidad
 
-## Requirements
+Desarrollamos tu producto mínimo viable (MVP) en 30 días.
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
+## Las 3 razones por las que desarrollar un Producto Mínimo Viable (MVP)
 
-## Quickstart
+### Ahorra costes en menos tiempo
+* Es más sencillo
+  * Un producto con las funcionalidades mínimas es más sencillo de desarrollar.
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
+* Nuestro ADN
+  * Trabajamos con metodologías ágiles cuando abordamos un nuevo proyecto.
 
-```bash
-bundle exec compass watch
-```
+### Valida tu idea y pivota
+* A/B Testing
+  * Testea tu producto y escucha a tus clientes, nosotros nos encargamos de Google Analytics.
 
-## Upgrading
+* Avanza o pivota
+  * Con un MVP es relativamente sencillo dar un paso atrás y buscar una nueva dirección.
 
-If you'd like to upgrade to a newer version of Foundation down the road just run:
+###Escala tu producto
+* Planificación
+  * Desde la primera fase de definición se busca un crecimiento exponencial de usuarios.
 
-```bash
-bower update
-```
+* Objetivos
+  * Lo más importante es que una vez testado el producto pueda seguir creciendo.
+
+## Escríbenos y trabajemos juntos
+
+Contacta con nosotros en [hello@codeender.com](mailto:hello@codeender.com) para contarnos tu idea, resolver alguna duda o solicitar un presupuesto.
+
+También puedes escribirnos para decir ¡hola!
+
+Te enviaremos un e-mail lo antes posible. Contestamos en menos de 48 horas.
+
+¡Gracias! 
