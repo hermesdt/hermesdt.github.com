@@ -16,7 +16,7 @@ row {
 
 body {
 	color: #3d464d;
-	font-family: 'open sans' !important;	
+	font-family: 'open sans' !important;
 	font-size: 14px;
 	line-height: 26px;
 }
@@ -42,6 +42,23 @@ p {
 
 	&:active, &:focus, &:visited {
 		@extend .button;
+	}
+
+}
+
+.button-form {
+	background: #ce5c59;	
+	color: #fff;
+	border: 1px solid #ce5c59;
+
+	&:hover {
+		background: #fff;
+		color: #ce5c59;
+		border: 1px solid #ccc;
+	}
+
+	&:active, &:focus, &:visited {
+		@extend .button-form;
 	}
 
 }
@@ -86,9 +103,14 @@ p {
 		h1 {
 			color: #fff;
 			font-family: 'bebas';
-			font-size: 2.86rem; // 40 % 14 
-			font-weight: bold;
-			line-height: 1.95; // 26*3 % 40		
+			font-size: 2.86rem; // 40 % 14
+			line-height: 1.95; // 26*3 % 40	
+
+			span {
+				color: #ce5c59;
+				font-size: 2.86rem; // 40 % 14
+				line-height: 1.95; // 26*3 % 40	
+			}
 		}
 	}
 
@@ -198,6 +220,8 @@ header {
 			&.active {
 				a {
 					border-bottom: 2px solid #ce5c59;
+					color: #ce5c59;
+					font-weight: bold;
 				}	
 			}
 			
@@ -213,7 +237,7 @@ header {
 	}
 
 	h2 {
-		font-size: 1.43rem; // 20 % 14 
+		font-size: 1.43rem; // 20 % 14
 		line-height: 26px;
 		margin-top: 130px;
 		margin: 26px 0;
@@ -288,7 +312,7 @@ header {
 	}
 
 	h2 {
-		font-size: 1.43rem; // 20 % 14 
+		font-size: 1.43rem; // 20 % 14
 		line-height: 26px;
 		margin-top: 130px;
 		margin: 26px 0;
